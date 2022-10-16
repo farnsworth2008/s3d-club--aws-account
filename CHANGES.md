@@ -8,3 +8,6 @@ Recently completed and planned work is tracked here.
 - Added `terraform.tf`
 - Updated `site_group` module
 - Removed K8s provider
+
+## [0.1.9-1000](.)
+- Updated `site_group`
