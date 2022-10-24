@@ -8,7 +8,7 @@ locals {
 
 module "go_site" {
   count  = 1
-  source = "github.com/s3d-club/terraform-aws-site?ref=v0.1.9"
+  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.10-s3d-1001"
 
   domain      = local.group.domain
   favicon     = null
@@ -20,7 +20,7 @@ module "go_site" {
 
 module "mark_site" {
   count  = 0
-  source = "github.com/s3d-club/terraform-aws-site?ref=v0.1.9"
+  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.10-s3d-1001"
 
   domain      = local.group.domain
   favicon     = null
@@ -31,7 +31,7 @@ module "mark_site" {
 }
 
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.7"
+  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.9"
 
   context = "s3d-account"
   path    = path.module
@@ -40,7 +40,7 @@ module "name" {
 
 module "site" {
   count  = 1
-  source = "github.com/s3d-club/terraform-aws-site?ref=v0.1.9"
+  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.10-s3d-1001"
 
   domain      = local.group.domain
   favicon     = null
@@ -52,7 +52,7 @@ module "site" {
 # tfsec:ignore:aws-ec2-no-public-egress-sgr
 # tfsec:ignore:aws-ec2-no-public-ingress-sgr
 module "site_group" {
-  source = "github.com/s3d-club/terraform-aws-site-group?ref=v0.1.27"
+  source = "github.com/s3d-club/terraform-aws-site-group?ref=0.1.28-1000"
 
   cidr6s        = ["::/0"]
   cidrs         = ["0.0.0.0/0"]

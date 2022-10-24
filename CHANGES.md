@@ -7,3 +7,6 @@ Recently completed and planned work is tracked here.
 ## [0.1.9](.)
 - Updated `hashicorp/aws` provider
 - Updated `site_group` module
+
+## [0.1.10-1000](.)
+- Added `terraform.tf`

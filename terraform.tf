@@ -1,10 +1,10 @@
 terraform {
-  required_version = ">=1.3.2"
+  required_version = ">=1.3.3"
 
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = ">=4.34.0"
+      version = ">=4.36.1"
     }
 
     external = {
@@ -27,4 +27,3 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
-
