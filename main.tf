@@ -8,7 +8,7 @@ locals {
 
 module "go_site" {
   count  = 1
-  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.13-s3d-1011"
+  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.13-s3d-1012"
 
   domain      = local.group.domain
   favicon     = null
@@ -20,7 +20,7 @@ module "go_site" {
 
 module "mark_site" {
   count  = 0
-  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.13-s3d-1011"
+  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.13-s3d-1012"
 
   domain      = local.group.domain
   favicon     = null
@@ -31,7 +31,7 @@ module "mark_site" {
 }
 
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=0.1.10-s3d-1007"
+  source = "github.com/s3d-club/terraform-external-name?ref=0.1.10-s3d-1008"
 
   context = "s3d-account"
   path    = path.module
@@ -40,7 +40,7 @@ module "name" {
 
 module "site" {
   count  = 1
-  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.13-s3d-1011"
+  source = "github.com/s3d-club/terraform-aws-site?ref=0.1.13-s3d-1012"
 
   domain      = local.group.domain
   favicon     = null
