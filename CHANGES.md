@@ -15,3 +15,7 @@ Recently completed and planned work is tracked here.
 - Updated `go_site`
 - Updated `mark_site`
 - Updated `site`
+
+## [0.1.16-1000](.)
+- Removed `ec2_key_name` variable and `terraform.tfvars` file
+- Updated `site_group` module
