@@ -1,13 +1,16 @@
 output "go_site" {
-  value = module.go_site
+  sensitive = true
+  value     = module.go_site
 }
 
 output "mark_site" {
-  value = module.mark_site
+  sensitive = true
+  value     = module.mark_site
 }
 
 output "site" {
-  value = module.site
+  sensitive = true
+  value     = module.site
 }
 
 output "site_group" {
