@@ -49,7 +49,7 @@ module "site" {
 # tfsec:ignore:aws-ec2-no-public-egress-sgr
 # tfsec:ignore:aws-ec2-no-public-ingress-sgr
 module "site_group" {
-  source = "github.com/s3d-club/terraform-aws-site-group?ref=0.1.35-s3d-1006"
+  source = "github.com/s3d-club/terraform-aws-site-group?ref=0.1.35-s3d-1007"
 
   cidr6s        = ["::/0"]
   cidrs         = ["0.0.0.0/0"]
