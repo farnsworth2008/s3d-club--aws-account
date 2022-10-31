@@ -20,5 +20,5 @@ Recently completed and planned work is tracked here.
 - Removed `ec2_key_name` variable and `terraform.tfvars` file
 - Updated `site_group` module
 
-## [0.1.17-s3d-1014](.)
+## [0.1.17-s3d-1015](.)
 - Changed to use `-x` as suffix for pre-release versions
