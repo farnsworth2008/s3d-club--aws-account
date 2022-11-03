@@ -1,5 +1,5 @@
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 ## [0.0.0](.) [0.1.13](.)
 - Created early releases
@@ -23,5 +23,5 @@ Recently completed and planned work is tracked here.
 ## [0.1.17](.)
 - Changed to use `-x` as suffix for pre-release versions
 
-## [0.1.18-s3d-1006](.)
+## [0.1.18-s3d-1007](.)
 - Updated `site_group` module
