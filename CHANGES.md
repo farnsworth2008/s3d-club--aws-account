@@ -23,5 +23,5 @@ Recently completed and planned work is tracked here.
 ## [0.1.17](.)
 - Changed to use `-x` as suffix for pre-release versions
 
-## [0.1.18-s3d-1004](.)
+## [0.1.18-s3d-1005](.)
 - Updated `site_group` module
