@@ -21,3 +21,6 @@ This file describes the project history as it relates to tagged versions.
 
 ## [0.1.21](.) to [0.1.22](.)
 - Updated `site_group` module
+
+## [0.1.23-1000](.)
+- Updated `site` module
